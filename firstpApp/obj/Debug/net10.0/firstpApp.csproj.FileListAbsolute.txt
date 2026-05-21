@@ -1,0 +1,14 @@
+D:\csharp\firstpApp\bin\Debug\net10.0\firstpApp.exe
+D:\csharp\firstpApp\bin\Debug\net10.0\firstpApp.deps.json
+D:\csharp\firstpApp\bin\Debug\net10.0\firstpApp.runtimeconfig.json
+D:\csharp\firstpApp\bin\Debug\net10.0\firstpApp.dll
+D:\csharp\firstpApp\bin\Debug\net10.0\firstpApp.pdb
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.AssemblyInfoInputs.cache
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.AssemblyInfo.cs
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.csproj.CoreCompileInputs.cache
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.dll
+D:\csharp\firstpApp\obj\Debug\net10.0\refint\firstpApp.dll
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.pdb
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.genruntimeconfig.cache
+D:\csharp\firstpApp\obj\Debug\net10.0\ref\firstpApp.dll
