@@ -1,16 +1,28 @@
 using System;
 
-class Firstp{
-    public static void Main(string[] args){
-        string name="Apple iphone 14";
-        double price=320.5;
-        string category="smartphone";
-        bool availability=true;
-        int sold=5;
-        Console.WriteLine($"Name: {name} \nPrice: {price}");
-        Console.WriteLine("Price: " + price);
-        Console.WriteLine("category: " + category);
-        Console.WriteLine("Available: "+ availability);
-        Console.WriteLine("Sold: " + sold);
+class Program
+{
+    public static void Main(string[] args)
+    {
+        string studentName;
+        int studentAge;
+        float cgpa;
+        bool isReg;
+
+        Console.WriteLine("Enter Student's Name: ");
+        studentName= Console.ReadLine();
+        Console.WriteLine("Enter Student's Age: ");
+        studentAge= Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter Student's CGPA: ");
+        cgpa= float.Parse(Console.ReadLine());
+        Console.WriteLine("If Student is Registered: ");
+        isReg= Convert.ToBoolean(Console.ReadLine());
+
+        Console.WriteLine("Student's Name: "+studentName);
+        Console.WriteLine("Student's Age: "+studentAge);
+        Console.WriteLine("Student's cgpa: "+cgpa);
+        Console.WriteLine("Student registered: "+isReg);
+        
     }
+
 }
