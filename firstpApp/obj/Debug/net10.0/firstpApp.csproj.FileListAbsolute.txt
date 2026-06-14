@@ -12,3 +12,4 @@ D:\csharp\firstpApp\obj\Debug\net10.0\refint\firstpApp.dll
 D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.pdb
 D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.genruntimeconfig.cache
 D:\csharp\firstpApp\obj\Debug\net10.0\ref\firstpApp.dll
+D:\csharp\firstpApp\obj\Debug\net10.0\firstpApp.sourcelink.json
