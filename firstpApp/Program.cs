@@ -1,27 +1,21 @@
 using System;
 
+class person
+{
+    public string name;
+    public int Age{get;set;}
+}
 class Program
 {
     public static void Main(string[] args)
     {
-        string studentName;
-        int studentAge;
-        float cgpa;
-        bool isReg;
+       person p1= new person();
+       p1.name="Jamil Hasan Fahim";
+       Console.Write("Enter your age: ");
+       p1.Age=Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("Your name: "+ p1.name);
+       Console.WriteLine("Your age: "+p1.Age);
 
-        Console.WriteLine("Enter Student's Name: ");
-        studentName= Console.ReadLine();
-        Console.WriteLine("Enter Student's Age: ");
-        studentAge= Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter Student's CGPA: ");
-        cgpa= float.Parse(Console.ReadLine());
-        Console.WriteLine("If Student is Registered: ");
-        isReg= Convert.ToBoolean(Console.ReadLine());
-
-        Console.WriteLine("Student's Name: "+studentName);
-        Console.WriteLine("Student's Age: "+studentAge);
-        Console.WriteLine("Student's cgpa: "+cgpa);
-        Console.WriteLine("Student registered: "+isReg);
         
     }
 
