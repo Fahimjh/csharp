@@ -28,9 +28,9 @@ class Program
             Console.WriteLine("Your number: "+num);
 
         }
-        catch (FormatException)
+        catch (Exception obj)
         {
-            Console.WriteLine("Input thik koira dew");
+            Console.WriteLine(obj.Message);
 
         }
         Console.WriteLine("End of Program");
