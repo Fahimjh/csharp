@@ -4,7 +4,11 @@ class Program
 {
     public static void Main(string[] args)
     {        
-        Console.Write(" \" ");       
+        int[] arr= {1,2,3,4,5};
+        foreach (int i in arr)
+        {
+            Console.Write($"{i} ");            
+        }
     }
 }
         
