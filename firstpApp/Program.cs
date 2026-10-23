@@ -3,23 +3,8 @@ using System;
 class Program
 {
     public static void Main(string[] args)
-    {
-        int num;
-        char ch;
-
-        Console.Write("Enter a number: ");
-        num=Convert.ToInt32(Console.Read());        
-        Console.WriteLine("Your number: "+ num);
-        Console.ReadLine();//to clear input buffer
-        Console.Write("Enter a number: ");
-        ch = (char)Console.Read();
-        Console.WriteLine("Your number: " + ch);
-        
-
-        Console.Write("Press a key: ");
-        ConsoleKeyInfo key = Console.ReadKey();
-        Console.WriteLine();
-        Console.WriteLine($"You pressed: {key.KeyChar}");
+    {        
+        Console.Write(" \" ");       
     }
 }
         
