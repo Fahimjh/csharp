@@ -9,6 +9,15 @@ class Program
             {4,5,6},
             {7,8,9},
             };
+        
+        Console.Write("Array before sorting: ");
+        foreach (int i in arr)
+        {
+            Console.Write($"{i} ");            
+        }
+        
+        Array.Sort(arr);
+        Console.Write("Array after sorting: ");
         foreach (int i in arr)
         {
             Console.Write($"{i} ");            
