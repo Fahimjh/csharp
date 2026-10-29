@@ -4,24 +4,13 @@ class Program
 {
     public static void Main(string[] args)
     {        
-        int[,] arr= {
-            {1,2,3},
-            {4,5,6},
-            {7,8,9},
-            };
-        
-        Console.Write("Array before sorting: ");
-        foreach (int i in arr)
-        {
-            Console.Write($"{i} ");            
-        }
-        
-        Array.Sort(arr);
-        Console.Write("Array after sorting: ");
-        foreach (int i in arr)
-        {
-            Console.Write($"{i} ");            
-        }
+        string name="Fahim",b;
+        Console.WriteLine(name);
+        b=name;
+        Console.WriteLine(b);
+        name="Jamil";
+        Console.WriteLine("After changes: "+name);        
+        Console.WriteLine(b);
     }
 }
         
