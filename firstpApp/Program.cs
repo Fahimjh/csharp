@@ -4,13 +4,16 @@ class Program
 {
     public static void Main(string[] args)
     {        
-        string name="Fahim",b;
-        Console.WriteLine(name);
-        b=name;
-        Console.WriteLine(b);
-        name="Jamil";
-        Console.WriteLine("After changes: "+name);        
-        Console.WriteLine(b);
+        string name=" Fahim ";      
+        Console.WriteLine("Before Trimmimng: "+name);        
+        name=name.Trim();
+        Console.WriteLine("After Trimmimng: "+name);        
+
+        string subName1=name.Substring(2);
+        Console.WriteLine(subName1);
+        string subName2=name.Substring(1,3);
+        Console.WriteLine(subName2);
+
     }
 }
         
